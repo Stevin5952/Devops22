@@ -1,0 +1,50 @@
+
+:root {
+	 --theme-ordinary-color: #000000;  /* theme ordinay font color ok*/
+}
+:root {
+	 --theme-primary-color: #218fce;  /* theme primary color ok*/
+}
+:root {
+	 --theme-secondary-color: #ff0000;  /* theme secondary color ok*/
+}
+:root {
+	 --theme-white-color: #fff;  /* theme white font color ok*/
+}
+:root {
+	 --theme-light-color: #5c5353;  /* theme light gray color */
+}
+:root {
+	 --theme-gray-color: #8a23d4d8;  /* theme gray color ok*/
+}
+:root {
+	 --theme-footer-color: #091b4b;  /* theme dark color */
+}
+:root {
+	 --theme-dark-color: #091b4b;  /* theme dark color */
+}
+:root {
+	 --text-light-color: #a3a7af;  /* Light text color to use in dark area */
+}
+:root {
+	 --theme-primary-opacity-color: rgba(92, 11, 191, 0.8);  /* theme secondary color */
+}
+:root {
+	 --theme-secondary-opacity-color: rgba(13,20,50,0.7);  /* theme secondary color ok*/
+}
+:root {
+	 --theme-white-opacity-color: rgba(255, 255, 255, 0.3);  /* theme light color */
+}
+:root {
+	 --theme-dark-opacity-color: rgba(0, 0, 0, 0.5);  /* theme dark color ok*/
+}
+
+:root {
+	 --theme-ordinary-font: 'Muli', sans-serif;  /* Font use for normal text and general text ok*/
+}
+:root {
+	 --theme-highlight-font: 'Comfortaa', cursive;  /* Font used in title or special area ok*/
+}
+
+
+
