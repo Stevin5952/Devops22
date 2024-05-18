@@ -12,8 +12,8 @@ services:
       - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: yourdb
-      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: realestatephp  # Change this to your database name
+      
     networks:
       - mysql-phpmyadmin
 
@@ -43,9 +43,6 @@ services:
       - mysql-phpmyadmin
     depends_on:
       - db
-    build:
-      context: .
-      dockerfile: inline
 
 networks:
   mysql-phpmyadmin:
