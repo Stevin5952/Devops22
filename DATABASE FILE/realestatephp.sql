@@ -1,20 +1,6 @@
--- phpMyAdmin SQL Dump
--- version 4.6.5.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jul 23, 2022 at 07:28 PM
--- Server version: 5.6.21
--- PHP Version: 5.6.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `realestatephp`
@@ -195,13 +181,13 @@ CREATE TABLE `state` (
 --
 
 INSERT INTO `state` (`sid`, `sname`) VALUES
-(2, 'Colotana'),
-(3, 'Floaii'),
-(4, 'Virconsin'),
-(7, 'West Misstana\n\n'),
-(9, 'New Pennrk\n\n'),
-(10, 'Louiswa\n\n'),
-(15, 'Wisginia\n\n');
+(2, 'karnataka'),
+(3, 'tamilnadu'),
+(4, 'Kerala'),
+(7, 'Andra\n\n'),
+(9, 'UP\n\n'),
+(10, 'Delhi\n\n'),
+(15, 'Maharastra\n\n');
 
 -- --------------------------------------------------------
 
