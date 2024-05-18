@@ -2,10 +2,10 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
-Database:realestatephp
+Database:realestatephp1
 
--- Table structure for table `about`
---
+--Table structure for table `about`
+
 
 CREATE TABLE `about` (
   `id` int(10) NOT NULL,

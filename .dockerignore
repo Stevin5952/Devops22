@@ -1,0 +1,8 @@
+# Ignore the Dockerfile and docker-compose.yml file
+Dockerfile
+docker-compose.yml
+
+# Ignore other unwanted files and directories
+.git
+node_modules
+vendor

@@ -1,14 +1,15 @@
 # Use the official PHP image with Apache
-FROM php:7.4-apache
+FROM php:8.1-apache
 
-# Copy the website files to the default Apache directory
+# Copy the source code to the /var/www/html directory in the container
 COPY . /var/www/html/
 
-# Install additional PHP extensions if needed (e.g., mysqli)
+# Set the working directory
+WORKDIR /var/www/html/
+
+# Install any additional PHP extensions if needed
+# For example, to install mysqli extension, use:
 RUN docker-php-ext-install mysqli
 
-# Enable Apache mod_rewrite if needed for pretty URLs
-RUN a2enmod rewrite
-
-# Set the ServerName directive globally
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+# Expose port 80 to the outside world
+EXPOSE 80
